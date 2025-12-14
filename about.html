@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About - Shoebox Lab</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nixie+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&display=swap"
+    rel="stylesheet">
+</head>
+<body>
+  <style>
+    /* Base styles */
+body {
+  margin: 0;
+  font-family: 'Google Sans Flex';
+  background: #fefefe;
+  color: #222;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  border-bottom: 1px solid #e0e0e0;
+  background: #fff;
+  font-size: 1.2rem;
+}
+
+.logo {
+  font-family: 'Nixie One';
+  font-weight: bold;
+  font-size: 2.2rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #444;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color: #e68be2bc; /* soft purple accent */
+}
+
+/* Main */
+main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 20px;
+  text-align: center;
+
+  background-image:
+    linear-gradient(to right, rgba(255, 96, 205, 0.194) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 96, 205, 0.194) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.about-main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  padding: 80px 20px;
+}
+
+.about-content {
+  background: white;
+  padding: 40px;
+  max-width: 700px;
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  text-align: left;
+}
+
+.about-content h1 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.about-content p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #333;
+}
+
+
+/* Footer */
+footer {
+  padding: 20px 0;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #999;
+  border-top: 1px solid #e0e0e0;
+  background: #fff;
+}
+
+  </style>
+  
+  <header>
+    <div class="logo"><a href="index.html" style="text-decoration: none; color: #000;">Shoebox Lab</a></div>
+    <nav class="nav">
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="about-main">
+    <section class="about-content">
+      <h1>About</h1>
+      <p>
+        Shoebox Lab is a small playground for big ideas and beautiful tools.
+        <br /><br />
+        We design simple web apps, utilities, and design-led interfaces with care and clarity. 
+        Every project starts with a problem worth solving and ends with something worth using.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Shoebox & Co. All rights reserved.</p>
+  </footer>
+</body>
+</html>
